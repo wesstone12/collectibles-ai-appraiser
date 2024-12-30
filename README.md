@@ -11,7 +11,7 @@ All it does is
 5. Return the card name, info, and ebay/other links
 6. Make a nice sqlite db and also a cute streamlit app to display the cards. 
 
-Uses Pydantic/instructor to extract structured data from the image. 
+Uses Pydantic/instructor to extract structured data from the image. Uses Async Azure OpenAI to get the info and what not
 
 ### How to use
 1. uv sync
@@ -20,6 +20,10 @@ Uses Pydantic/instructor to extract structured data from the image.
 
 Make sure you have the ebay config stuff figured out. would recommend the prod one. This is for pokemon cards but you could easily modify it for other collectibles. 
 
+### Scan collectibles to PDF 
+![alt text](images/image1.png)
+
+### Async Azure OpenAI go brrr
 ![alt text](images/image.png)
 ![alt text](images/image-1.png)
 ![alt text](images/image2.png)
